@@ -17,12 +17,12 @@ namespace task_4
             Console.WriteLine(Sahe(4,6,3,4));
         }
 
-        static int Sahe( int r)
+        static double Sahe( double r)
         {
-            int pi = 3;
+            double pi = 3;
             return pi* r * r;
         }
-        static int Sahe(int a, int b)
+        static double Sahe(double a, double b)
         {
             return a * b;
         }
